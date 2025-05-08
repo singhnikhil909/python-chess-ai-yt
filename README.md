@@ -7,17 +7,12 @@ A Python-based chess game with AI opponents using Stockfish and Leela Chess Zero
 ### Implemented
 - Interactive chess board with graphical interface
 - Support for both Stockfish and Leela Chess Zero engines
-- Adjustable AI difficulty levels
 - Legal move validation
 - Move highlighting and visual feedback
 - Support for special moves (castling, en passant, promotion)
 - Game state tracking (check, checkmate, stalemate)
-- Save and load games
-- Undo/redo moves
-- Customizable board appearance
 
 ### Planned Features
-- Online multiplayer support
 - Opening book integration
 - Game analysis mode
 - Tournament mode
