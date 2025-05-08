@@ -1,0 +1,7 @@
+pygame==2.5.2
+python-chess==1.10.0
+stockfish==3.28.0
+numpy==1.24.3
+pytest==7.4.0
+pillow==10.0.0  # For image handling
+python-dotenv==1.0.0  # For environment variables 

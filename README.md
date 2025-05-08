@@ -1,27 +1,86 @@
-# Game Instructions
+# Chess AI
 
-* Working on AI gamemode...
+A Python-based chess game with AI opponents using Stockfish and Leela Chess Zero engines. This project is a fork of [AlejoG10/python-chess-ai-yt](https://github.com/AlejoG10/python-chess-ai-yt).
 
-- Entry point: main.py
-- Press 't' to change theme (green, brown, blue, gray)
-- Press 'r' to restart the game
+## Features
 
-# Game Snapshots
+### Implemented
+- Interactive chess board with graphical interface
+- Support for both Stockfish and Leela Chess Zero engines
+- Adjustable AI difficulty levels
+- Legal move validation
+- Move highlighting and visual feedback
+- Support for special moves (castling, en passant, promotion)
+- Game state tracking (check, checkmate, stalemate)
+- Save and load games
+- Undo/redo moves
+- Customizable board appearance
 
-## Snapshot 1 - Start (green)
-![snapshot1](snapshots/snapshot1.png)
+### Planned Features
+- Online multiplayer support
+- Opening book integration
+- Game analysis mode
+- Tournament mode
+- Custom engine configuration
+- Time controls
+- Move history display
+- Game statistics
 
-## Snapshot 2 - Start (brown)
-![snapshot2](snapshots/snapshot2.png)
+## Installation
 
-## Snapshot 3 - Start (blue)
-![snapshot3](snapshots/snapshot3.png)
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/chess-ai.git
+cd chess-ai
+```
 
-## Snapshot 4 - Start (gray)
-![snapshot4](snapshots/snapshot4.png)
+2. Create and activate a virtual environment (recommended):
+```bash
+python -m venv venv
+# On Windows
+venv\Scripts\activate
+# On Unix or MacOS
+source venv/bin/activate
+```
 
-## Snapshot 5 - Valid Moves
-![snapshot5](snapshots/snapshot5.png)
+3. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-## Snapshot 6 - Castling
-![snapshot6](snapshots/snapshot6.png)
+4. Download chess engines:
+   - Download Stockfish from [official website](https://stockfishchess.org/download/)
+   - Download Leela Chess Zero from [official website](https://lczero.org/play/download/)
+   - Place the engine executables in the `engines` directory
+
+## Usage
+
+1. Run the main game:
+```bash
+python chess_ai/src/main.py
+```
+
+2. Game Controls:
+   - Left click to select a piece
+   - Left click on a valid square to move
+   - Right click to cancel selection
+   - Use the menu options for additional features
+
+## Requirements
+
+- Python 3.8 or higher
+- Pygame
+- Python-chess
+- Stockfish or Leela Chess Zero engine
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Credits
+
+This project is a fork of [AlejoG10/python-chess-ai-yt](https://github.com/AlejoG10/python-chess-ai-yt). Special thanks to the original author for the foundation of this project.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 
